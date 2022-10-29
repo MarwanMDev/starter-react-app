@@ -29,7 +29,8 @@
   },
   "dependencies": {
     "express": "^4.17.3",
-    "react-icons": "^4.6.0"
+    "react-icons": "^4.6.0",
+    "swiper": "^8.4.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.2",
