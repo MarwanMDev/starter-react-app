@@ -1,6 +1,6 @@
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
-import HeaderImage from '../../assets/home-header-image.jpg';
+// import HeaderImage from '../../assets/home-header-image.jpg';
 import './header.css';
 
 const Header = () => {
