@@ -1,15 +1,18 @@
 import React from 'react';
 // import ME from '../../assets/me-about.jpg';
+import { useInView } from 'react-intersection-observer';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import './about.css';
 
-const about = () => {
+const About = () => {
+  const { ref, inView } = useInView();
+
   return (
     <section id="about">
       <h5>Get to know</h5>
-      <h2>About me</h2>
+      <h2 ref={ref}>About me {inView ? 'Marwan' : ''}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -52,4 +55,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
