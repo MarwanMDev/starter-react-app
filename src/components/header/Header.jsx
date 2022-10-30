@@ -5,7 +5,16 @@ import './header.css';
 
 const Header = () => {
   return (
-    <header>
+    <header
+      data-aos="fade"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Marwan Mostafa</h1>

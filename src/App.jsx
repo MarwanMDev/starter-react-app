@@ -8,8 +8,12 @@ import Nav from './components/nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Testmonials from './components/testmonials/Testmonials';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const App = () => {
+  AOS.init();
+
   return (
     <>
       <Header />
