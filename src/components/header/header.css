@@ -17,6 +17,8 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+  animation: fadeInUp;
+  animation-duration: 4s;
 }
 
 /* ============== HEADER SOCIALS ============== */
@@ -29,6 +31,10 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 .header__socials::after {
@@ -50,6 +56,8 @@ header {
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+  animation: fadeInUp;
+  animation-duration: 4s;
 }
 
 /* ============== SCROLL DOWN ============== */
@@ -61,6 +69,10 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+  animation: flash;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) ============== */

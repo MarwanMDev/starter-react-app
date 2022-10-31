@@ -8,7 +8,6 @@ import Nav from './components/nav/Nav';
 import Portfolio from './components/portfolio/Portfolio';
 import Services from './components/services/Services';
 import Testmonials from './components/testmonials/Testmonials';
-import './App.css';
 
 const App = () => {
   return (
