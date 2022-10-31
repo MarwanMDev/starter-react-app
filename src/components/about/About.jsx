@@ -7,17 +7,7 @@ import './about.css';
 
 const About = () => {
   return (
-    <section
-      id="about"
-      data-aos="fade"
-      data-aos-offset="200"
-      // data-aos-delay="50"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="false"
-      data-aos-anchor-placement="top-center"
-    >
+    <section id="about">
       <h5>Get to know</h5>
       <h2>About me</h2>
 

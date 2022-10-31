@@ -4,17 +4,7 @@ import './experience.css';
 
 const Experience = () => {
   return (
-    <section
-      id="experience"
-      data-aos="flip-right"
-      data-aos-offset="200"
-      data-aos-delay="50"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
-      data-aos-once="false"
-      data-aos-anchor-placement="top-center"
-    >
+    <section id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
