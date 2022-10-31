@@ -10,6 +10,7 @@ import Services from './components/services/Services';
 import Testmonials from './components/testmonials/Testmonials';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './App.css';
 
 const App = () => {
   AOS.init();

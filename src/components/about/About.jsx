@@ -5,13 +5,13 @@ import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import './about.css';
 
-const about = () => {
+const About = () => {
   return (
     <section
       id="about"
-      data-aos="slide-right"
+      data-aos="fade"
       data-aos-offset="200"
-      data-aos-delay="50"
+      // data-aos-delay="50"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
@@ -62,4 +62,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
